@@ -1,0 +1,31 @@
+.header{
+   background-color: rgba(0, 0, 0, 0.4);
+    padding: .5rem 2.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left, .header-right{
+    display: flex;
+    align-items: center;
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: wheat;
+}
+a > span:hover{
+    color: orangered;
+}
+
+.header-icon{
+    width: 60px;
+    cursor: pointer;
+}
+
+.user-avatar{
+    font-size: 2rem;
+}
